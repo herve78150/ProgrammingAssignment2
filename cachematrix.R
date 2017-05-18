@@ -21,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSove calculate the inverse of a matrix using solve function and store it using an instance of  makeCacheMatrix
+## cacheSove calculates the inverse of a matrix using solve function and store it 
+## using an instance of  makeCacheMatrix
 ## function
 
 cacheSolve <- function(x, ...) {
